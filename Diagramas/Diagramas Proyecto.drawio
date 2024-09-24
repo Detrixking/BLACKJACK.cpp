@@ -1,0 +1,207 @@
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" modified="2024-09-24T01:15:13.542Z" version="22.1.22" etag="NFuJGDAdejsqe2RDZnca" type="embed" pages="2">
+  <diagram name="PLAYER_TURN( )" id="ww2Lh3BRQWwVEZHumG4v">
+    <mxGraphModel dx="512" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-2" target="CaarOGAfiB8A1Vicp-SZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-2" value="INICIO: PLAYER_TURN( )" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-4" target="CaarOGAfiB8A1Vicp-SZ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-4" value="&quot;mensaje_jugador&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-7" target="CaarOGAfiB8A1Vicp-SZ-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="320" />
+              <mxPoint x="240" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-7" target="CaarOGAfiB8A1Vicp-SZ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;jugador &lt;/span&gt;&lt;font style=&quot;&quot; face=&quot;Google Sans, Arial, sans-serif&quot; color=&quot;#1f1f1f&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;lt;&amp;nbsp; 21&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-8" value="FIN&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PLAYER_TURN( )&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-10" target="CaarOGAfiB8A1Vicp-SZ-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-10" value="&quot;¿Desea otra carta?&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-14" edge="1" target="CaarOGAfiB8A1Vicp-SZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="560" />
+              <mxPoint x="290" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-14" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;LEER RESPUESTA&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-17" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-18" value="V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-19" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-20" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-26" target="CaarOGAfiB8A1Vicp-SZ-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-26" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&quot;mensaje_jugador&quot;&lt;/span&gt;&#xa;&#xa;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-29" target="CaarOGAfiB8A1Vicp-SZ-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-29" target="CaarOGAfiB8A1Vicp-SZ-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-29" value="&lt;br&gt;&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: initial; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;jugador&lt;span&gt;&amp;nbsp;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;font style=&quot;forced-color-adjust: none; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; face=&quot;Google Sans, Arial, sans-serif&quot; color=&quot;#1f1f1f&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; 21&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-31" target="CaarOGAfiB8A1Vicp-SZ-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-31" value="&quot;Perdiste&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="980" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-33" value="V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="353" y="939" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-36" target="CaarOGAfiB8A1Vicp-SZ-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-36" target="CaarOGAfiB8A1Vicp-SZ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="1020" />
+              <mxPoint x="750" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-36" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;jugador ==21&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="581" y="980" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-37" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="469" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-39" target="CaarOGAfiB8A1Vicp-SZ-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="639" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="621" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-39" value="&quot;Ganaste&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="561" y="1100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-40" value="V" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="579" y="1060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-41" value="F" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="669" y="980" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q8TU9RB_hGUsa8f7bjkU-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CaarOGAfiB8A1Vicp-SZ-43" target="CaarOGAfiB8A1Vicp-SZ-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CaarOGAfiB8A1Vicp-SZ-43" value="plus_card( )" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jZaOWoIhO0CVL0xp9Cid" name="plus_card">
+    <mxGraphModel dx="512" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JWQ-Dlm_eoVqxpU-rRuS-2" target="JWQ-Dlm_eoVqxpU-rRuS-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-2" value="INICIO&amp;nbsp;&lt;div&gt;plus_card&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="745" y="20" width="184" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JWQ-Dlm_eoVqxpU-rRuS-4" target="JWQ-Dlm_eoVqxpU-rRuS-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-4" value="carta = draw_card()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="140" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JWQ-Dlm_eoVqxpU-rRuS-7" target="JWQ-Dlm_eoVqxpU-rRuS-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JWQ-Dlm_eoVqxpU-rRuS-7" target="JWQ-Dlm_eoVqxpU-rRuS-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-7" value="Jugador" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="784" y="240" width="106" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JWQ-Dlm_eoVqxpU-rRuS-9" target="JWQ-Dlm_eoVqxpU-rRuS-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="733" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="643" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-9" value="&lt;div&gt;&amp;nbsp;maquina+= carta&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mensaje_maquina += &quot; &quot; + carta&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JWQ-Dlm_eoVqxpU-rRuS-11" target="JWQ-Dlm_eoVqxpU-rRuS-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1023" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-11" value="&lt;div&gt;&amp;nbsp;jugador += carta&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;mensaje_jugador += &quot; &quot; + carta&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="929" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JWQ-Dlm_eoVqxpU-rRuS-13" target="JWQ-Dlm_eoVqxpU-rRuS-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="832" y="430" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-14" value="&lt;div&gt;FIN&lt;/div&gt;&lt;div&gt;plus_card&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="744" y="480" width="186" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-15" value="V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="928" y="258" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWQ-Dlm_eoVqxpU-rRuS-16" value="F" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="708" y="258" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
