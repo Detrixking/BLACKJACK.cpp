@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BLACKJACK_cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BLACKJACK_cpp">
+				<Option output="C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/BLACKJACK_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/."/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/Diagramas"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/librerias ejemplos"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/prueba"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/PseudoCodigo"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 BLACKJACK_cpp"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BLACKJACK_cpp/fast">
+				<Option output="C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/BLACKJACK_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/."/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/Diagramas"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/librerias ejemplos"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/prueba"/>
+					<Add directory="C:/Users/santi/CLionProjects/BLACKJACK.cpp/PseudoCodigo"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 BLACKJACK_cpp/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.gitignore">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/.gitignore">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/BLACKJACK.cpp.iml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/dbnavigator.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/discord.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/editor.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/material_theme_project_new.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/misc.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/modules.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/vcs.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/.idea/workspace.xml">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/Diagramas/Diagrama de flujo BlackJack.jpg">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/Diagramas/Diagramas Proyecto.drawio">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/Diagramas/PLAYER_TURN( ).jpg">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/Diagramas/Subproceso CARD.jpg">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/Diagramas/machine_turn.png">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/LICENSE">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/PseudoCodigo/proyecto.txt">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/README.md">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/face of the croupier.png">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/librerias ejemplos/librerias clase.cpp">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/prueba/dksaj">
+			<Option target="BLACKJACK_cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/santi/CLionProjects/BLACKJACK.cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
