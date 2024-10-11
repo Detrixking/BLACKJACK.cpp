@@ -15,7 +15,7 @@ using namespace std;
 int player = 0;
 int dealer = 0;
 string playerMessage = "Las cartas del jugador son:  ";
-string dealerMessage = "Las casrtas del dealer son:  ";
+string dealerMessage = "Las cartas del dealer son:  ";
 int cards [52];
 
 /**
@@ -102,13 +102,13 @@ void initGame() {
 
 void validateGame() {
     if (player == 21) {
-        cout << "Ganaste" << endl;
+        cout << "\nGanaste" << endl;
     }else if (player > dealer && player <= 21) {
-        cout << "Ganaste" << endl;
+        cout << "\nGanaste" << endl;
     }else if (player == dealer) {
-        cout << "Empate" << endl;
+        cout << "\nEmpate" << endl;
     }else {
-        cout << "Perdiste" << endl;
+        cout << "\nPerdiste" << endl;
     }
 }
 
