@@ -33,4 +33,6 @@ add_executable(BLACKJACK_cpp
     "face of the croupier.png"
     LICENSE
     README.md
+        "avance codigo/main.cpp"
+        "avance codigo/main.cpp"
         "avance codigo/main.cpp")

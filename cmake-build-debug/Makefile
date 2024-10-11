@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\santi\CLionProjects\BLACKJACK.cpp
+CMAKE_SOURCE_DIR = C:\Users\Usuario\CLionProjects\BLACKJACK.cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\santi\CLionProjects\BLACKJACK.cpp\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Usuario\CLionProjects\BLACKJACK.cpp\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\santi\CLionProjects\BLACKJACK.cpp\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\santi\CLionProjects\BLACKJACK.cpp\cmake-build-debug\CMakeFiles C:\Users\santi\CLionProjects\BLACKJACK.cpp\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\CLionProjects\BLACKJACK.cpp\cmake-build-debug\CMakeFiles C:\Users\Usuario\CLionProjects\BLACKJACK.cpp\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\santi\CLionProjects\BLACKJACK.cpp\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Usuario\CLionProjects\BLACKJACK.cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ BLACKJACK_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/build
 .PHONY : BLACKJACK_cpp/fast
 
-librerias_ejemplos/librerias_clase.obj: librerias_ejemplos/librerias_clase.cpp.obj
-.PHONY : librerias_ejemplos/librerias_clase.obj
+avance_codigo/main.obj: avance_codigo/main.cpp.obj
+.PHONY : avance_codigo/main.obj
 
 # target to build an object file
-librerias_ejemplos/librerias_clase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/librerias_ejemplos/librerias_clase.cpp.obj
-.PHONY : librerias_ejemplos/librerias_clase.cpp.obj
+avance_codigo/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.obj
+.PHONY : avance_codigo/main.cpp.obj
 
-librerias_ejemplos/librerias_clase.i: librerias_ejemplos/librerias_clase.cpp.i
-.PHONY : librerias_ejemplos/librerias_clase.i
+avance_codigo/main.i: avance_codigo/main.cpp.i
+.PHONY : avance_codigo/main.i
 
 # target to preprocess a source file
-librerias_ejemplos/librerias_clase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/librerias_ejemplos/librerias_clase.cpp.i
-.PHONY : librerias_ejemplos/librerias_clase.cpp.i
+avance_codigo/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.i
+.PHONY : avance_codigo/main.cpp.i
 
-librerias_ejemplos/librerias_clase.s: librerias_ejemplos/librerias_clase.cpp.s
-.PHONY : librerias_ejemplos/librerias_clase.s
+avance_codigo/main.s: avance_codigo/main.cpp.s
+.PHONY : avance_codigo/main.s
 
 # target to generate assembly for a file
-librerias_ejemplos/librerias_clase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/librerias_ejemplos/librerias_clase.cpp.s
-.PHONY : librerias_ejemplos/librerias_clase.cpp.s
+avance_codigo/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.s
+.PHONY : avance_codigo/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BLACKJACK_cpp
-	@echo ... librerias_ejemplos/librerias_clase.obj
-	@echo ... librerias_ejemplos/librerias_clase.i
-	@echo ... librerias_ejemplos/librerias_clase.s
+	@echo ... avance_codigo/main.obj
+	@echo ... avance_codigo/main.i
+	@echo ... avance_codigo/main.s
 .PHONY : help
 
 
