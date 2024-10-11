@@ -4,11 +4,24 @@
 
 using namespace std;
 
+/**
+ * @brief Se define al player y dealer/Variables globales.
+ *
+ * @param player somos nosotros.
+ * @param dealer es la maquina.
+ *
+ */
+
 int player = 0;
 int dealer = 0;
 string playerMessage = "Las cartas del jugador son:  ";
 string dealerMessage = "Las casrtas del dealer son:  ";
 int cards [52];
+
+/**
+ * @brief Esta función es el deck, las cartas que se usaran.
+ *
+ */
 
 void createDeck(){
     int cardValue = 2;
@@ -20,10 +33,10 @@ void createDeck(){
                 case 11:
                 case 12:
                     cardValue = 10;
-                    break;
+                break;
                 case 13:
                     cardValue = 11;
-                    break;
+                break;
                 default:
                     break;
             }
@@ -35,6 +48,16 @@ void createDeck(){
     }
 }
 
+/**
+ * @brief Esta función es el robo de las cartas.
+ *
+ * @code
+ * int card = dist(gen);
+ * @endcode
+ *
+ * @return int. Que carta se ha robado.
+ */
+
 int drawCard(){
     random_device rd;
     mt19937 gen(rd());
@@ -42,6 +65,11 @@ int drawCard(){
     int card = dist(gen);
     return cards[card -1];
 }
+
+/**
+ * @brief Es el robo de cartas de cada "jugador".
+ *
+ */
 
 void initGame() {
     createDeck();
@@ -56,6 +84,17 @@ void initGame() {
 
 }
 
+/**
+ * @brief Esta función nos dice el ganador, quien tiene mas "puntos".
+ *
+ * @code
+* if (player == 21) {
+        cout << "Ganaste" << endl;
+ * @endcode
+ *
+ * @return Imprime quien ha ganado, perdido o empatado.
+ */
+
 void validateGame() {
     if (player == 21) {
         cout << "Ganaste" << endl;
@@ -67,6 +106,11 @@ void validateGame() {
         cout << "Perdiste" << endl;
     }
 }
+
+/**
+ * @brief Esta función es el final del juego XD.
+ *
+ */
 
 int main() {
     initGame();
