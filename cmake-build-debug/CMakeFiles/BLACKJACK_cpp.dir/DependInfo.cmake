@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Usuario/CLionProjects/BLACKJACK.cpp/avance codigo/main.cpp" "CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.obj" "gcc" "CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.obj.d"
+  "C:/Users/santi/CLionProjects/BLACKJACK.cpp/avance codigo/main.cpp" "CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.obj" "gcc" "CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

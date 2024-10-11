@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\Usuario\CLionProjects\BLACKJACK.cpp -B C:\Users\Usuario\CLionProjects\BLACKJACK.cpp\cmake-build-debug
--- Configuring done (0.3s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/Usuario/CLionProjects/BLACKJACK.cpp/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\santi\CLionProjects\BLACKJACK.cpp -B C:\Users\santi\CLionProjects\BLACKJACK.cpp\cmake-build-debug
+-- Configuring done (23.3s)
+-- Generating done (4.4s)
+-- Build files have been written to: C:/Users/santi/CLionProjects/BLACKJACK.cpp/cmake-build-debug

@@ -1,124 +1,171 @@
 #include <iostream>
 #include <random>
 #include <string>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
-/**
- * @brief Se define al player y dealer/Variables globales.
- *
- * @param player somos nosotros.
- * @param dealer es la maquina.
- *
- */
+enum class Suite {
+    Corazones,
+    Diamantes,
+    Treboles,
+    Picas
+};
 
-int player = 0;
-int dealer = 0;
-string playerMessage = "Las cartas del jugador son:  ";
-string dealerMessage = "Las casrtas del dealer son:  ";
-int cards [52];
+enum class Figure {
+    Dos = 2,
+    Tres = 3,
+    Cuatro = 4,
+    Cinco = 5,
+    Seis = 6,
+    Siete = 7,
+    Ocho = 8,
+    Nueve = 9,
+    Diez = 10,
+    J = 10,
+    Q = 10,
+    K = 10,
+    As = 1
+};
 
-/**
- * @brief Esta función es el deck, las cartas que se usaran.
- *
- */
+class Card {
+public:
+    Suite suite;
+    Figure figure;
 
-void createDeck(){
-    int cardValue = 2;
-    int cardCount = 0;
-    for(int figure = 1; figure <= 4; figure++){
-        for (int card = 1; card <= 13; card++){
-            switch (card){
-                case 10:
-                case 11:
-                case 12:
-                    cardValue = 10;
-                break;
-                case 13:
-                    cardValue = 11;
-                break;
-                default:
-                    break;
-            }
-            cards[cardCount] = cardValue;
-            cardCount++;
-            cardValue++;
+    Card(Suite s, Figure f) : suite(s), figure(f) {}
+
+    int getValue() const {
+        return static_cast<int>(figure);
+    }
+};
+
+class Deck {
+private:
+    vector<Card> cards;
+
+public:
+    Deck() {
+        for (int s = 0; s < 4; s++) {
+
+            cards.emplace_back(static_cast<Suite>(s), Figure::Dos);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Tres);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Cuatro);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Cinco);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Seis);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Siete);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Ocho);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Nueve);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Diez);
+            cards.emplace_back(static_cast<Suite>(s), Figure::J);
+            cards.emplace_back(static_cast<Suite>(s), Figure::Q);
+            cards.emplace_back(static_cast<Suite>(s), Figure::K);
+            cards.emplace_back(static_cast<Suite>(s), Figure::As);
         }
-        cardValue = 2;
+        shuffleDeck();
     }
-}
 
-/**
- * @brief Esta función es el robo de las cartas.
- *
- * @code
- * int card = dist(gen);
- * @endcode
- *
- * @return int. Que carta se ha robado.
- */
-
-int drawCard(){
-    random_device rd;
-    mt19937 gen(rd());
-    uniform_int_distribution<int> dist(1, 52);
-    int card = dist(gen);
-    return cards[card -1];
-}
-
-/**
- * @brief Es el robo de cartas de cada "jugador".
- *
- */
-
-void initGame() {
-    createDeck();
-    int playerCard1 = drawCard();
-    int playerCard2 = drawCard();
-    int dealerCard1 = drawCard();
-    int dealerCard2 = drawCard();
-
-    player = playerCard1 + playerCard2;
-    dealer = dealerCard1 + dealerCard2;
-
-    cout << playerMessage << playerCard1 << " " << playerCard2 << endl;
-    cout << dealerMessage << dealerCard1 << " " << dealerCard2 << endl;
-
-    cout << playerMessage << player << endl;
-    cout << dealerMessage << dealer << endl;
-
-}
-
-/**
- * @brief Esta función nos dice el ganador, quien tiene mas "puntos".
- *
- * @code
-* if (player == 21) {
-        cout << "Ganaste" << endl;
- * @endcode
- *
- * @return Imprime quien ha ganado, perdido o empatado.
- */
-
-void validateGame() {
-    if (player == 21) {
-        cout << "Ganaste" << endl;
-    }else if (player > dealer && player <= 21) {
-        cout << "Ganaste" << endl;
-    }else if (player == dealer) {
-        cout << "Empate" << endl;
-    }else {
-        cout << "Perdiste" << endl;
+    void shuffleDeck() {
+        random_device rd;
+        mt19937 g(rd());
+        std::shuffle(cards.begin(), cards.end(), g);
     }
-}
 
-/**
- * @brief Esta función que inicia el codigo
- *
- */
+    Card drawCard() {
+        Card card = cards.back();
+        cards.pop_back();
+        return card;
+    }
+
+    bool isEmpty() const {
+        return cards.empty();
+    }
+};
+
+class Player {
+public:
+    string name;
+    vector<Card> hand;
+
+    Player(string n) : name(n) {}
+
+    void addCard(const Card& card) {
+        hand.push_back(card);
+    }
+
+    int getTotal() const {
+        int total = 0;
+        int acesCount = 0;
+        for (const auto& card : hand) {
+            total += card.getValue();
+            if (card.figure == Figure::As) {
+                acesCount++;
+            }
+        }
+
+        while (total > 21 && acesCount > 0) {
+            total -= 10;
+            acesCount--;
+        }
+        return total;
+    }
+};
+
+class Blackjack {
+private:
+    Deck deck;
+    Player player;
+    Player dealer;
+
+public:
+    Blackjack() : player("Jugador"), dealer("Dealer") {}
+
+    void initGame() {
+        for (int i = 0; i < 2; i++) {
+            player.addCard(deck.drawCard());
+            dealer.addCard(deck.drawCard());
+        }
+    }
+
+    void displayHands() {
+        cout << "Las cartas del jugador son: ";
+        for (const auto& card : player.hand) {
+            cout << static_cast<int>(card.figure) << " ";
+        }
+        cout << "Total: " << player.getTotal() << endl;
+
+        cout << "Las cartas del dealer son: ";
+        for (const auto& card : dealer.hand) {
+            cout << static_cast<int>(card.figure) << " ";
+        }
+        cout << "Total: " << dealer.getTotal() << endl;
+    }
+
+    void validateGame() {
+        int playerTotal = player.getTotal();
+        int dealerTotal = dealer.getTotal();
+
+        if (playerTotal == 21) {
+            cout << "\nGanaste" << endl;
+        } else if (playerTotal > dealerTotal && playerTotal <= 21) {
+            cout << "\nGanaste" << endl;
+        } else if (playerTotal == dealerTotal) {
+            cout << "\nEmpate" << endl;
+        } else {
+            cout << "\nPerdiste" << endl;
+        }
+    }
+
+    void play() {
+        initGame();
+        displayHands();
+        validateGame();
+    }
+};
 
 int main() {
-    initGame();
-    validateGame();
+    Blackjack game;
+    game.play();
     return 0;
 }
