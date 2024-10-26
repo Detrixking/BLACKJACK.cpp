@@ -35,4 +35,9 @@ add_executable(BLACKJACK_cpp
     README.md
         "avance codigo/main.cpp"
         "avance codigo/main.cpp"
-        "avance codigo/main.cpp")
+        "avance codigo/main.cpp"
+        "NEW CODE/blackjack.cpp"
+        "NEW CODE/blackjack.cpp"
+        "NEW CODE/blackjack.cpp"
+        "NEW CODE/card.cpp"
+        "NEW CODE/V2.cpp")
