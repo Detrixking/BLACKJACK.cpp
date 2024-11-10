@@ -1,25 +1,44 @@
+//
+// Created by santi on 13/11/2024.
+//
 
-#include "card.h"
+#include "2.0.h"
 
 Card::Card(Suite suite, Figure figure) : suite(suite), figure(figure) {
     switch (figure) {
-        case Figure:: TWO:
-        value = 2;
+        case Figure::TWO:
+            value = 2;
+        case Figure::THREE:
+            value = 3;
+        break;
+        case Figure::FOUR:
+            value = 4;
+        break;
+        case Figure::FIVE:
+            value = 5;
+        break;
+        case Figure::SIX:
+            value = 6;
+        break;
+        case Figure::SEVEN:
+            value = 7;
+        break;
+        case Figure::EIGHT:
+            value = 8;
         break;
         case Figure::NINE:
             value = 9;
         break;
-            case Figure::TEN:
-    case Figure::JACK:
-    case Figure::QUEEN:
-    case Figure::KING:
-        value = 10;
+        case Figure::TEN:
+        case Figure::JACK:
+        case Figure::QUEEN:
+        case Figure::KING:
+            value = 10;
         break;
-    case Figure::ACE:
-        value = 11;
+        case Figure::ACE:
+            value = 11;
         break;
     }
-
 }
 
 std::string Card::getCard() const {
@@ -60,5 +79,6 @@ std::string Card::getSuiteDisplay() const {
             suiteDisplay = "(P)";
         break;
     }
+
     return suiteDisplay;
 }

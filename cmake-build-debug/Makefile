@@ -152,6 +152,126 @@ avance_codigo/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/avance_codigo/main.cpp.s
 .PHONY : avance_codigo/main.cpp.s
 
+carpeta_ya_modulada/2.0.obj: carpeta_ya_modulada/2.0.cpp.obj
+.PHONY : carpeta_ya_modulada/2.0.obj
+
+# target to build an object file
+carpeta_ya_modulada/2.0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/2.0.cpp.obj
+.PHONY : carpeta_ya_modulada/2.0.cpp.obj
+
+carpeta_ya_modulada/2.0.i: carpeta_ya_modulada/2.0.cpp.i
+.PHONY : carpeta_ya_modulada/2.0.i
+
+# target to preprocess a source file
+carpeta_ya_modulada/2.0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/2.0.cpp.i
+.PHONY : carpeta_ya_modulada/2.0.cpp.i
+
+carpeta_ya_modulada/2.0.s: carpeta_ya_modulada/2.0.cpp.s
+.PHONY : carpeta_ya_modulada/2.0.s
+
+# target to generate assembly for a file
+carpeta_ya_modulada/2.0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/2.0.cpp.s
+.PHONY : carpeta_ya_modulada/2.0.cpp.s
+
+carpeta_ya_modulada/3.0.obj: carpeta_ya_modulada/3.0.cpp.obj
+.PHONY : carpeta_ya_modulada/3.0.obj
+
+# target to build an object file
+carpeta_ya_modulada/3.0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/3.0.cpp.obj
+.PHONY : carpeta_ya_modulada/3.0.cpp.obj
+
+carpeta_ya_modulada/3.0.i: carpeta_ya_modulada/3.0.cpp.i
+.PHONY : carpeta_ya_modulada/3.0.i
+
+# target to preprocess a source file
+carpeta_ya_modulada/3.0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/3.0.cpp.i
+.PHONY : carpeta_ya_modulada/3.0.cpp.i
+
+carpeta_ya_modulada/3.0.s: carpeta_ya_modulada/3.0.cpp.s
+.PHONY : carpeta_ya_modulada/3.0.s
+
+# target to generate assembly for a file
+carpeta_ya_modulada/3.0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/3.0.cpp.s
+.PHONY : carpeta_ya_modulada/3.0.cpp.s
+
+carpeta_ya_modulada/4.0.obj: carpeta_ya_modulada/4.0.cpp.obj
+.PHONY : carpeta_ya_modulada/4.0.obj
+
+# target to build an object file
+carpeta_ya_modulada/4.0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/4.0.cpp.obj
+.PHONY : carpeta_ya_modulada/4.0.cpp.obj
+
+carpeta_ya_modulada/4.0.i: carpeta_ya_modulada/4.0.cpp.i
+.PHONY : carpeta_ya_modulada/4.0.i
+
+# target to preprocess a source file
+carpeta_ya_modulada/4.0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/4.0.cpp.i
+.PHONY : carpeta_ya_modulada/4.0.cpp.i
+
+carpeta_ya_modulada/4.0.s: carpeta_ya_modulada/4.0.cpp.s
+.PHONY : carpeta_ya_modulada/4.0.s
+
+# target to generate assembly for a file
+carpeta_ya_modulada/4.0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/4.0.cpp.s
+.PHONY : carpeta_ya_modulada/4.0.cpp.s
+
+carpeta_ya_modulada/5.0.obj: carpeta_ya_modulada/5.0.cpp.obj
+.PHONY : carpeta_ya_modulada/5.0.obj
+
+# target to build an object file
+carpeta_ya_modulada/5.0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/5.0.cpp.obj
+.PHONY : carpeta_ya_modulada/5.0.cpp.obj
+
+carpeta_ya_modulada/5.0.i: carpeta_ya_modulada/5.0.cpp.i
+.PHONY : carpeta_ya_modulada/5.0.i
+
+# target to preprocess a source file
+carpeta_ya_modulada/5.0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/5.0.cpp.i
+.PHONY : carpeta_ya_modulada/5.0.cpp.i
+
+carpeta_ya_modulada/5.0.s: carpeta_ya_modulada/5.0.cpp.s
+.PHONY : carpeta_ya_modulada/5.0.s
+
+# target to generate assembly for a file
+carpeta_ya_modulada/5.0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/5.0.cpp.s
+.PHONY : carpeta_ya_modulada/5.0.cpp.s
+
+carpeta_ya_modulada/6.0.obj: carpeta_ya_modulada/6.0.cpp.obj
+.PHONY : carpeta_ya_modulada/6.0.obj
+
+# target to build an object file
+carpeta_ya_modulada/6.0.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/6.0.cpp.obj
+.PHONY : carpeta_ya_modulada/6.0.cpp.obj
+
+carpeta_ya_modulada/6.0.i: carpeta_ya_modulada/6.0.cpp.i
+.PHONY : carpeta_ya_modulada/6.0.i
+
+# target to preprocess a source file
+carpeta_ya_modulada/6.0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/6.0.cpp.i
+.PHONY : carpeta_ya_modulada/6.0.cpp.i
+
+carpeta_ya_modulada/6.0.s: carpeta_ya_modulada/6.0.cpp.s
+.PHONY : carpeta_ya_modulada/6.0.s
+
+# target to generate assembly for a file
+carpeta_ya_modulada/6.0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BLACKJACK_cpp.dir\build.make CMakeFiles/BLACKJACK_cpp.dir/carpeta_ya_modulada/6.0.cpp.s
+.PHONY : carpeta_ya_modulada/6.0.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +284,21 @@ help:
 	@echo ... avance_codigo/main.obj
 	@echo ... avance_codigo/main.i
 	@echo ... avance_codigo/main.s
+	@echo ... carpeta_ya_modulada/2.0.obj
+	@echo ... carpeta_ya_modulada/2.0.i
+	@echo ... carpeta_ya_modulada/2.0.s
+	@echo ... carpeta_ya_modulada/3.0.obj
+	@echo ... carpeta_ya_modulada/3.0.i
+	@echo ... carpeta_ya_modulada/3.0.s
+	@echo ... carpeta_ya_modulada/4.0.obj
+	@echo ... carpeta_ya_modulada/4.0.i
+	@echo ... carpeta_ya_modulada/4.0.s
+	@echo ... carpeta_ya_modulada/5.0.obj
+	@echo ... carpeta_ya_modulada/5.0.i
+	@echo ... carpeta_ya_modulada/5.0.s
+	@echo ... carpeta_ya_modulada/6.0.obj
+	@echo ... carpeta_ya_modulada/6.0.i
+	@echo ... carpeta_ya_modulada/6.0.s
 .PHONY : help
 
 

@@ -1,13 +1,18 @@
+//
+// Created by santi on 13/11/2024.
+//
 
-#ifndef DECK_H
-#define DECK_H
+#ifndef INC_3_0_H
+#define INC_3_0_H
 
-#include "card.h"
+#include "2.0.h"
+
 #include <vector>
 #include <random>
 #include <algorithm>
 
 struct Deck {
+
     std::vector<Card> cards;
 
     Deck();
@@ -17,4 +22,4 @@ struct Deck {
     Card draw();
 };
 
-#endif //DECK_H
+#endif //INC_3_0_H

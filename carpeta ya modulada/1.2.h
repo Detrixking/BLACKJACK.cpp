@@ -1,9 +1,9 @@
 //
-// Created by santi on 09/11/2024.
+// Created by santi on 13/11/2024.
 //
 
-#ifndef FIGURE_H
-#define FIGURE_H
+#ifndef INC_1_2_H
+#define INC_1_2_H
 
 enum class Figure {
     TWO = 2,
@@ -12,7 +12,7 @@ enum class Figure {
     FIVE,
     SIX,
     SEVEN,
-    EIGTH,
+    EIGHT,
     NINE,
     TEN,
     JACK,
@@ -20,4 +20,5 @@ enum class Figure {
     KING,
     ACE
 };
-#endif //FIGURE_H
+
+#endif //INC_1_2_H

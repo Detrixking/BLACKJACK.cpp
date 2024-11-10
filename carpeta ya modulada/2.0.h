@@ -1,11 +1,11 @@
 //
-// Created by santi on 09/11/2024.
+// Created by santi on 13/11/2024.
 //
 
-#ifndef CARD_H
-#define CARD_H
+#ifndef INC_2_0_H
+#define INC_2_0_H
 
-#include "enums.h"
+#include "1.0.h"
 #include <string>
 
 struct Card {
@@ -21,4 +21,4 @@ struct Card {
     [[nodiscard]] std::string getSuiteDisplay() const;
 };
 
-#endif //CARD_H
+#endif //INC_2_0_H

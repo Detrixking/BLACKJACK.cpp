@@ -1,18 +1,22 @@
+//
+// Created by santi on 13/11/2024.
+//
 
-#ifndef BLACKJACK_H
-#define BLACKJACK_H
+#ifndef INC_5_0_H
+#define INC_5_0_H
 
-#include "deck.h"
-#include "player.h"
+#include "4.0.h"
+#include "3.0.h"
 #include <string>
 #include <iostream>
 
-struct Blackjack {
+struct BlackJack {
+
     Player player = Player("Jugador");
-    Player dealer = Player("Croupier");
+    Player dealer = Player("Dealer");
     Deck deck;
 
-    Blackjack();
+    BlackJack();
 
     void showTable() const;
 
@@ -25,4 +29,4 @@ struct Blackjack {
     void showWinner() const;
 };
 
-#endif //BLACKJACK_H
+#endif //INC_5_0_H

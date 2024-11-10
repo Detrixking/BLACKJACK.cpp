@@ -1,12 +1,17 @@
+//
+// Created by santi on 13/11/2024.
+//
 
-#include "blackjack.h"
-#include "deck.h"
+#include "5.0.h"
+#include "3.0.h"
+
 #include <string>
 #include <iostream>
 
 using namespace std;
 
-Blackjack::Blackjack() {
+BlackJack::BlackJack() {
+
     deck.shuffle();
     player.addCard(deck.draw());
     player.addCard(deck.draw());
@@ -14,57 +19,52 @@ Blackjack::Blackjack() {
     dealer.addCard(deck.draw());
 }
 
+void BlackJack::showTable() const {
 
-void Blackjack::showTable() const {
     player.showHand();
     dealer.showHand();
 }
 
-void Blackjack::playerTurn() {
+void BlackJack::playerTurn() {
 
 }
 
-void Blackjack::dealerTurn() {
+void BlackJack::dealerTurn() {
 
 }
 
-Winner Blackjack::getWinner() const {
+[[nodiscard]] Winner BlackJack::getWinner() const {
+
     if (player.score > 21) {
         return Winner::DEALER;
-    }else {
+    } else {
         if (player.score == 21) {
             return Winner::PLAYER;
-
-        }else {
+        } else {
             if (player.score > dealer.score) {
                 return Winner::PLAYER;
-            }else if(player.score < dealer.score) {
+            } else if (player.score < dealer.score) {
                 return Winner::DEALER;
-            }else {
+            } else {
                 return Winner::DRAW;
             }
         }
     }
 }
 
-void Blackjack::showWinner() const {
-    string winner = "El ganador es  ";
+void BlackJack::showWinner() const {
+
+    string winner = "El ganador es: ";
     switch (getWinner()) {
         case Winner::PLAYER:
-        winner += player.name;
+            winner += player.name;
         break;
-
         case Winner::DEALER:
             winner += dealer.name;
         break;
-
         case Winner::DRAW:
-            winner += "Empate ";
+            winner += "Empate";
         break;
-
     }
     cout << winner << endl;
 }
-
-
-
