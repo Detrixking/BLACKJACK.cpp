@@ -36,8 +36,8 @@ add_executable(BLACKJACK_cpp
         "avance codigo/main.cpp"
         "avance codigo/main.cpp"
         "avance codigo/main.cpp"
-        "NEW CODE/blackjack.cpp"
-        "NEW CODE/blackjack.cpp"
-        "NEW CODE/blackjack.cpp"
-        "NEW CODE/card.cpp"
-        "NEW CODE/V2.cpp")
+        "Archivos pa el copy paste/blackjack.cpp"
+        "Archivos pa el copy paste/blackjack.cpp"
+        "Archivos pa el copy paste/blackjack.cpp"
+        "Archivos pa el copy paste/card.cpp"
+        "Archivos pa el copy paste/V2.cpp")
