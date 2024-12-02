@@ -1,6 +1,7 @@
-//
-// Created by santi on 13/11/2024.
-//
+/**
+* @brief Es para crear las clases de las cartas.
+ */
+
 
 #ifndef INC_1_1_H
 #define INC_1_1_H

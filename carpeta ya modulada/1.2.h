@@ -1,6 +1,6 @@
-//
-// Created by santi on 13/11/2024.
-//
+/**
+* @brief Es para decir las cartas que hay en el blackjack.
+ */
 
 #ifndef INC_1_2_H
 #define INC_1_2_H
