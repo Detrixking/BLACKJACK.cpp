@@ -1,53 +1,22 @@
 cmake_minimum_required(VERSION 3.29)
 project(BLACKJACK_cpp)
 
-set(CMAKE_CXX_STANDARD 14)
-
-include_directories(.)
-include_directories(.idea)
-include_directories(Diagramas)
-include_directories("avance codigo")
-include_directories(prueba)
-include_directories(PseudoCodigo)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(BLACKJACK_cpp
-    .idea/.gitignore
-    .idea/BLACKJACK.cpp.iml
-    .idea/dbnavigator.xml
-    .idea/discord.xml
-    .idea/editor.xml
-    .idea/material_theme_project_new.xml
-    .idea/misc.xml
-    .idea/modules.xml
-    .idea/vcs.xml
-    .idea/workspace.xml
-    "Diagramas/Diagrama de flujo BlackJack.jpg"
-    "Diagramas/Diagramas Proyecto.drawio"
-    Diagramas/machine_turn.png
-    "Diagramas/PLAYER_TURN( ).jpg"
-    "Diagramas/Subproceso CARD.jpg"
-    "avance codigo/main.cpp"
-    prueba/dksaj
-    PseudoCodigo/proyecto.txt
-    .gitignore
-    "face of the croupier.png"
-    LICENSE
-    README.md
-        "avance codigo/main.cpp"
-        "avance codigo/main.cpp"
-        "avance codigo/main.cpp"
-        "carpeta ya modulada/1.1.h"
-        "carpeta ya modulada/1.2.h"
-        "carpeta ya modulada/1.3.h"
-        "carpeta ya modulada/1.0.h"
-        "carpeta ya modulada/1.1.h"
-        "carpeta ya modulada/1.2.h"
-        "carpeta ya modulada/2.0.cpp"
-        "carpeta ya modulada/2.0.h"
-        "carpeta ya modulada/3.0.cpp"
-        "carpeta ya modulada/3.0.h"
-        "carpeta ya modulada/4.0.cpp"
-        "carpeta ya modulada/4.0.h"
-        "carpeta ya modulada/5.0.cpp"
-        "carpeta ya modulada/5.0.h"
-        "carpeta ya modulada/6.0.cpp")
+        modulos/1.1.h
+        modulos/1.2.h
+        modulos/1.3.h
+        modulos/1.0.h
+        modulos/1.1.h
+        modulos/1.2.h
+        modulos/2.0.cpp
+        modulos/2.0.h
+        modulos/3.0.cpp
+        modulos/3.0.h
+        modulos/4.0.cpp
+        modulos/4.0.h
+        modulos/5.0.cpp
+        modulos/5.0.h
+        modulos/6.0.cpp
+        modulos/1.0.h)

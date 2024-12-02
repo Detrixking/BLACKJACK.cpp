@@ -1,6 +1,6 @@
-//
-// Created by santi on 13/11/2024.
-//
+/**
+* @brief Esta libreia es para que el 2.0.cpp funcione correctamente.
+*/
 
 #ifndef INC_2_0_H
 #define INC_2_0_H
@@ -8,6 +8,9 @@
 #include "1.0.h"
 #include <string>
 
+/**
+ *
+ */
 struct Card {
     int value;
     Suite suite;

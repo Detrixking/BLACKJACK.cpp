@@ -1,8 +1,16 @@
-//
-// Created by santi on 13/11/2024.
-//
-
 #include "2.0.h"
+
+/**
+* @brief Esta función da el valor de las cartas.
+*
+ * @code
+ * switch (figure) {
+        case Figure::TWO:
+            value = 2;
+ * @endcode
+ *
+ * @return El valor de la carta.
+ */
 
 Card::Card(Suite suite, Figure figure) : suite(suite), figure(figure) {
     switch (figure) {
@@ -41,6 +49,18 @@ Card::Card(Suite suite, Figure figure) : suite(suite), figure(figure) {
     }
 }
 
+/**
+* @brief Esta función da la figura de las cartas.
+*
+ * @code
+ * switch (figure) {
+        case Figure::JACK:
+            cardDisplay = "J";
+ * @endcode
+ *
+ * @return El valor de la figura de las cartas.
+ */
+
 std::string Card::getCard() const {
     std::string cardDisplay;
     switch (figure) {
@@ -62,6 +82,18 @@ std::string Card::getCard() const {
     }
     return cardDisplay + getSuiteDisplay();
 }
+
+/**
+* @brief Esta función dice que tipo de carta es.
+*
+ * @code
+ * switch (suite) {
+        case Suite::HEARTS:
+            suiteDisplay = "(C)";
+ * @endcode
+ *
+ * @return El valor de la carta, en este caso dice que es un corazon.
+ */
 
 std::string Card::getSuiteDisplay() const {
     std::string suiteDisplay;
