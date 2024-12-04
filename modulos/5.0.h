@@ -1,7 +1,3 @@
-//
-// Created by santi on 13/11/2024.
-//
-
 #ifndef INC_5_0_H
 #define INC_5_0_H
 
@@ -9,6 +5,10 @@
 #include "3.0.h"
 #include <string>
 #include <iostream>
+
+/**
+* @brief Libreia para que el juego (5.0.cpp) funcione correctamente.
+*/
 
 struct BlackJack {
 

@@ -1,7 +1,3 @@
-//
-// Created by santi on 13/11/2024.
-//
-
 #ifndef INC_4_0_H
 #define INC_4_0_H
 
@@ -9,16 +5,23 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <memory>
+
+
+/**
+* @brief Libreia para que el Player (4.0.cpp) funcione correctamente.
+*/
 
 struct Player {
 
     std::string name;
-    std::vector<Card> hand;
+    std::vector<std::unique_ptr<Card>> hand;
     int score = 0;
+    bool isDealer{};
 
     explicit Player(std::string name);
 
-    void addCard(Card card);
+    void addCard(std::unique_ptr<Card> card);
 
     void showHand() const;
 };

@@ -19,4 +19,7 @@ add_executable(BLACKJACK_cpp
         modulos/5.0.cpp
         modulos/5.0.h
         modulos/6.0.cpp
+        modulos/1.0.h
+        modulos/1.0.h
+        modulos/1.1.h
         modulos/1.0.h)
