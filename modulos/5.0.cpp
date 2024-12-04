@@ -1,7 +1,3 @@
-//
-// Created by santi on 13/11/2024.
-//
-
 #include "5.0.h"
 #include "3.0.h"
 
@@ -9,6 +5,10 @@
 #include <iostream>
 
 using namespace std;
+
+/**
+ * @brief Esta función inicia la partida.
+ */
 
 BlackJack::BlackJack() {
 
@@ -19,19 +19,48 @@ BlackJack::BlackJack() {
     dealer.addCard(deck.draw());
 }
 
+/**
+ * @brief Muestra las manos de ambos jugadores.
+ */
+
 void BlackJack::showTable() const {
 
     player.showHand();
     dealer.showHand();
 }
 
+/**
+ * @brief Indica el turno del Player.
+ */
+
 void BlackJack::playerTurn() {
 
 }
 
+/**
+ * @brief Indica el turno del Dealer.
+ */
+
 void BlackJack::dealerTurn() {
 
 }
+
+/**
+ * @brief Indica al ganador de la partida.
+ *
+ * @param Player.
+ * @param Dealer.
+ *
+ * @code
+* if (player.score > 21) {
+        return Winner::DEALER;
+    } else {
+        if (player.score == 21) {
+            return Winner::PLAYER;
+ * @endcode
+ *
+ * @return Al ganador.
+ */
 
 [[nodiscard]] Winner BlackJack::getWinner() const {
 
@@ -51,6 +80,10 @@ void BlackJack::dealerTurn() {
         }
     }
 }
+
+/**
+ * @brief Muestra el resultado del juego.
+ */
 
 void BlackJack::showWinner() const {
 

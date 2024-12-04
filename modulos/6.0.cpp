@@ -1,8 +1,9 @@
-//
-// Created by santi on 13/11/2024.
-//
-
 #include "5.0.h"
+
+/**
+ * @brief Este es el ejecutable.
+ */
+
 
 int main() {
 

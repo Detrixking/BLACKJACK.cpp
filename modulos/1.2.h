@@ -1,9 +1,9 @@
+#ifndef INC_1_2_H
+#define INC_1_2_H
+
 /**
 * @brief Es para decir las cartas que hay en el blackjack.
  */
-
-#ifndef INC_1_2_H
-#define INC_1_2_H
 
 enum class Figure {
     TWO = 2,

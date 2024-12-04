@@ -1,7 +1,3 @@
-//
-// Created by santi on 13/11/2024.
-//
-
 #ifndef INC_4_0_H
 #define INC_4_0_H
 
@@ -9,6 +5,10 @@
 #include <string>
 #include <vector>
 #include <iostream>
+
+/**
+* @brief Libreia para que el Player (4.0.cpp) funcione correctamente.
+*/
 
 struct Player {
 

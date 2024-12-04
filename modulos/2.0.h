@@ -1,7 +1,3 @@
-/**
-* @brief Esta libreia es para que el 2.0.cpp funcione correctamente.
-*/
-
 #ifndef INC_2_0_H
 #define INC_2_0_H
 
@@ -9,8 +5,9 @@
 #include <string>
 
 /**
- *
- */
+* @brief Esta Libreia es para que el 2.0.cpp funcione correctamente.
+*/
+
 struct Card {
     int value;
     Suite suite;
