@@ -12,6 +12,10 @@
 * @brief Libreia para que el Player (4.0.cpp) funcione correctamente.
 */
 
+/**
+* @brief Libreia para que el Player (4.0.cpp) funcione correctamente.
+*/
+
 struct Player {
 
     std::string name;

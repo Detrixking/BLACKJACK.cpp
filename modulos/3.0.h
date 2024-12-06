@@ -12,6 +12,10 @@
 * @brief Libreia para que el deck (3.0.cpp) funcione correctamente.
 */
 
+/**
+* @brief Libreia para que el deck (3.0.cpp) funcione correctamente.
+*/
+
 struct Deck {
 
     std::vector<std::unique_ptr<Card>> cards;
