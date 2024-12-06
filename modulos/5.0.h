@@ -5,6 +5,21 @@
 #include "3.0.h"
 #include <string>
 #include <iostream>
+#include <fstream>
+
+using namespace std;
+
+class Blackjack {
+public:
+    BlackJack();
+    void showTable();
+    void showWinner();
+    void saveGame(const string& filename);
+    void loadGame(const string& filename);
+
+private:
+    vector<string> playerNames;
+};
 
 /**
 * @brief Libreia para que el juego (5.0.cpp) funcione correctamente.

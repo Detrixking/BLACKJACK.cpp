@@ -180,3 +180,29 @@ void BlackJack::showWinner() const {
     }
     cout << winner << endl;
 }
+
+void BlackJack::saveGame(const string& filename) {
+    ofstream outFile(filename);
+    if(outFile.is_open()) {
+        for(const auto& name: playerNames) {
+            outFile << name << endl;
+        }
+        outFile.close();
+    }else {
+        std::cerr << "No se pudo abrir el archivo para guardar "<< endl;
+    }
+}
+
+void BlackJack::loadGame(const string& filename) {
+    ifstream inFile(filename);
+    if(inFile.is_open()) {
+        playerNames.clear();
+        string name;
+        while(getLine(inFile, name)) {
+            playerNames.push_back(name);
+        }
+        inFile.close();
+    }else {
+        std::cerr << "No se pudo abrir el archivo" << endl;
+    }
+}
