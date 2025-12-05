@@ -9,7 +9,7 @@
 
 using namespace std;
 
-class Blackjack {
+class BlackJack {
 public:
     BlackJack();
     void showTable();
